@@ -1,6 +1,6 @@
 #include "Player.h"
 #include <iostream>
-//final commit
+
 using namespace std;
 
 Player::Player() : name(""), ID(0) {}

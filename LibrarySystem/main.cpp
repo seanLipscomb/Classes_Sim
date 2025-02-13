@@ -1,12 +1,12 @@
 #include "Item.h"
 #include "Player.h"
 #include "Shop.h"
-//final commit
+
 using namespace std;
 
 int main(){
     Shop shop;
-    
+
     shop.addItem(Item("Jennifer's Needle", "Polearm", 2000));
     shop.addItem(Item("Godfist", "Hammer", 3000));
     shop.addItem(Item("The Cutting Edge", "Sword", 2500));

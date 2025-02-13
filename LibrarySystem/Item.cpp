@@ -1,7 +1,6 @@
 #include "Item.h"
 #include <iostream>
 using namespace std;
-//final commit
 //default constructor
 Item::Item() : name(""), category(""), price(0), available(false) {}
 
