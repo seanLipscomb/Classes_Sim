@@ -1,4 +1,6 @@
 #include "Shop.h"
+#include "Player.h"
+#include "Item.h"
 #include <iostream>
 //final commit
 using namespace std;
@@ -11,7 +13,7 @@ void Shop::addPlayer(const Player& player) {
     players.push_back(player);
 }
 
-void Shop::buyItem(const string& itemName, Player& player) {
+void Shop::buyItem(const string& itemName, Player& player) const {
     for (auto& item : stock) {
         if(item.getName() == itemName && item.isAvailable()) {
             player.buyItem(item);
