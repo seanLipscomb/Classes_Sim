@@ -6,8 +6,7 @@ using namespace std;
 
 int main(){
     Shop shop;
-
-    //alphabetical by book title
+    
     shop.addItem(Item("Jennifer's Needle", "Polearm", 2000));
     shop.addItem(Item("Godfist", "Hammer", 3000));
     shop.addItem(Item("The Cutting Edge", "Sword", 2500));
